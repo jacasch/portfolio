@@ -1,0 +1,50 @@
+html{
+    background-color: #111111;
+    font-family: monospace;
+    font-weight: 200;
+    color: #888888;
+}
+h1{
+    font-size: 40pt;
+    letter-spacing: 8px;
+}
+h2{
+    font-size: 16pt;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 12pt;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 900px;
+    min-width: 400px;
+    justify-content: center;
+    align-self: flex-start;
+    margin-bottom: 25px;
+}
+
+.flexheader{
+    width: 100%;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.flexitem>p{
+    margin-top: 0px;
+}
+
+.flexitem{
+    max-width: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.portfolioimg{
+    width: 100%;
+    margin-bottom: 25px;
+}

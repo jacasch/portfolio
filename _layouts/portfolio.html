@@ -1,0 +1,20 @@
+---
+layout: "wrapper"
+---
+
+{% for section in page.sections %}
+<div class="flexcontainer">
+  <div class="flexheader">
+      <h2>{{section.title}}</h2>
+  </div>
+  <div class="flexitem">
+    <p>{{section.body|textilize}}</p>
+  </div>
+  <div class="flexitem">
+    {%for image in section.images%}
+      <img src="{{site.baseurl}}/images/{{page.title}}/{{image}}" class="portfolioimg">
+    {%endfor%}
+  </div>
+  
+</div>
+{% endfor %}
